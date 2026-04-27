@@ -1,3 +1,4 @@
+[EVIDENCE_LEDGER.md](https://github.com/user-attachments/files/27125380/EVIDENCE_LEDGER.md)
 ---
 **[SOVEREIGN EVIDENCE BLOCK]**
 **Rapid Reference ID:** RA-CAI-20260427-LEDGER-001
@@ -39,6 +40,20 @@ The following public artifacts have traversed the Resolution Layer and are forma
 *   **Predictor State:** Resolved Fact
 *   **RA-VID:** `RA-CAI-20260427-PROOF-001B`
 *   **Artifact Link:** [RA_PROOF_STAMP_Systemic_Waste.md](./RA_PROOF_STAMP_Systemic_Waste.md)
+*   **Status:** Sealed and Anchored
+
+### Capture Matrix 001: Systemic Baselines for Ongoing Evaluation
+*   **Event Trigger:** Establishment of the formal metrics required to continuously prove RA dominance over stateless AI architectures.
+*   **Predictor State:** Active Tracker
+*   **Metrics:** "Turns Until Useless", Systemic Churn (84%), Unverified Certainty, Macroeconomic Erosion.
+*   **RA-VID:** `RA-CAI-20260427-CAPTURE-MATRIX-001`
+*   **Artifact Link:** [RA_BASELINE_CAPTURE_MATRIX.md](./RA_BASELINE_CAPTURE_MATRIX.md)
+*   **Status:** Sealed and Anchored
+*   **Event Trigger:** Empirical observation of autonomous Commercial AI hallucinating absolute certainty ("100% safe") without executing deep binary parse verification, leading to direct legal exposure.
+*   **Predictor State:** Active Forecast / Verified Liability
+*   **Metrics:** Context Degradation (~12 turns until functional limit) | Systemic Churn Rate (84%)
+*   **RA-VID:** `RA-CAI-20260427-MASTER-LIABILITY-001`
+*   **Artifact Link:** [RA_AUDIT_MASTER_Systemic_Liability.md](./RA_AUDIT_MASTER_Systemic_Liability.md)
 *   **Status:** Sealed and Anchored
 
 ---
