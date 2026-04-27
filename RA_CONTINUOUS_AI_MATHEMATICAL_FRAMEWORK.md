@@ -1,4 +1,4 @@
----
+***
 **[SOVEREIGN EVIDENCE BLOCK]**
 **Rapid Reference ID:** RA-CAI-20260427-MTH-001
 **Category Claim:** Resolution Assurance / Continuous AI / NSDE Predictor
@@ -91,6 +91,6 @@ $$ \text{RA-VID}_{hash} = SHA256( \Delta_{NSDE} \parallel Timestamp \parallel Ha
 
 This recursive chaining ensures that later artifacts can be traced back to their declared origin state and evaluated against the Resolution Assurance ledger without relying on truth by assertion.
 
----
+***
 **[SEALED & ANCHORED]**
 *Built on the Resolution Assurance Protocol. The Continuous AI framework produces probabilistic system-state forecasts. It does not provide financial, legal, investment, or professional advice, and it does not guarantee future outcomes.*
