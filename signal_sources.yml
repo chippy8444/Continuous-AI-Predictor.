@@ -1,0 +1,143 @@
+# RA Signal Agent source registry
+request_delay_seconds: 0.5
+
+sources:
+  - id: fred_financial_stress_stlfsi4
+    name: FRED St. Louis Fed Financial Stress Index
+    domain: banking_cre
+    type: csv
+    url: https://fred.stlouisfed.org/graph/fredgraph.csv?id=STLFSI4
+    date_column: observation_date
+    value_column: STLFSI4
+    unit: index
+    direction: high_bad
+    trend_window: 4
+    thresholds: {warning: 0.25, alert: 0.75, critical: 1.50}
+
+  - id: fred_cre_delinquency_all_banks
+    name: FRED commercial real estate delinquency rate
+    domain: banking_cre
+    type: csv
+    url: https://fred.stlouisfed.org/graph/fredgraph.csv?id=DRSFRMACBS
+    date_column: observation_date
+    value_column: DRSFRMACBS
+    unit: percent
+    direction: high_bad
+    trend_window: 4
+    thresholds: {warning: 3.0, alert: 5.0, critical: 8.0}
+
+  - id: federal_reserve_stress_test_watch
+    name: Federal Reserve stress test page watch
+    domain: banking_cre
+    type: text_watch
+    url: https://www.federalreserve.gov/supervisionreg/dfa-stress-tests.htm
+    keywords: [commercial real estate, severely adverse, regional banks, credit losses, office]
+    thresholds: {warning_hits: 1, alert_hits: 4, critical_hits: 8}
+
+  - id: fao_food_price_index_watch
+    name: FAO Food Price Index watch
+    domain: food
+    type: text_watch
+    url: https://www.fao.org/worldfoodsituation/foodpricesindex/en/
+    keywords: [Food Price Index, higher, cereal, dairy, meat, vegetable oils, sugar]
+    thresholds: {warning_hits: 2, alert_hits: 5, critical_hits: 9}
+
+  - id: world_bank_commodities_food_watch
+    name: World Bank commodity food market watch
+    domain: food
+    type: text_watch
+    url: https://www.worldbank.org/en/research/commodity-markets
+    keywords: [food, fertilizer, commodity, price, shortage, supply]
+    thresholds: {warning_hits: 2, alert_hits: 5, critical_hits: 9}
+
+  - id: gdelt_food_shortage_watch
+    name: GDELT food shortage / food inflation volume
+    domain: food
+    type: gdelt_timeline
+    query: '("food shortage" OR "food crisis" OR "food price inflation" OR "fertilizer shortage")'
+    timespan: 7d
+    unit: gdelt_timeline_volume
+    direction: high_bad
+    thresholds: {warning: 0.5, alert: 1.5, critical: 3.0}
+
+  - id: us_drought_monitor_data_watch
+    name: U.S. Drought Monitor data download watch
+    domain: water
+    type: text_watch
+    url: https://droughtmonitor.unl.edu/DmData/DataDownload.aspx
+    keywords: [drought, DSCI, comprehensive statistics, percent of area, population, weekly]
+    thresholds: {warning_hits: 2, alert_hits: 6, critical_hits: 10}
+
+  - id: nasa_grace_groundwater_watch
+    name: NASA GRACE groundwater watch
+    domain: water
+    type: text_watch
+    url: https://grace.jpl.nasa.gov/
+    keywords: [groundwater, aquifer, drought, water storage, GRACE]
+    thresholds: {warning_hits: 1, alert_hits: 4, critical_hits: 7}
+
+  - id: gdelt_water_shortage_watch
+    name: GDELT water shortage / rationing volume
+    domain: water
+    type: gdelt_timeline
+    query: '("water shortage" OR "water rationing" OR "aquifer depletion" OR "reservoir levels")'
+    timespan: 7d
+    unit: gdelt_timeline_volume
+    direction: high_bad
+    thresholds: {warning: 0.5, alert: 1.5, critical: 3.0}
+
+  - id: usgs_mineral_commodity_summaries_watch
+    name: USGS mineral commodity summaries watch
+    domain: critical_minerals
+    type: text_watch
+    url: https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries
+    keywords: [lithium, copper, critical minerals, reserves, supply, production]
+    thresholds: {warning_hits: 2, alert_hits: 6, critical_hits: 10}
+
+  - id: gdelt_copper_lithium_shortage_watch
+    name: GDELT copper / lithium shortage volume
+    domain: critical_minerals
+    type: gdelt_timeline
+    query: '("copper shortage" OR "lithium deficit" OR "critical minerals shortage" OR "battery minerals shortage")'
+    timespan: 7d
+    unit: gdelt_timeline_volume
+    direction: high_bad
+    thresholds: {warning: 0.5, alert: 1.5, critical: 3.0}
+
+  - id: pew_public_trust_watch
+    name: Pew public trust in government watch
+    domain: institutional_trust
+    type: text_watch
+    url: https://www.pewresearch.org/politics/2024/06/24/public-trust-in-government-1958-2024/
+    keywords: [public trust, government, elected officials, trust, confidence, partisan]
+    thresholds: {warning_hits: 2, alert_hits: 6, critical_hits: 10}
+
+  - id: gdelt_polarization_legitimacy_watch
+    name: GDELT polarization / legitimacy stress volume
+    domain: institutional_trust
+    type: gdelt_timeline
+    query: '("political polarization" OR "institutional trust" OR "government legitimacy" OR "elected officials")'
+    timespan: 7d
+    unit: gdelt_timeline_volume
+    direction: high_bad
+    thresholds: {warning: 0.5, alert: 1.5, critical: 3.0}
+
+  - id: gdelt_supply_chain_disruption_watch
+    name: GDELT supply chain disruption volume
+    domain: supply_chain
+    type: gdelt_timeline
+    query: '("supply chain disruption" OR "port congestion" OR "shipping disruption" OR "trade bottleneck")'
+    timespan: 7d
+    unit: gdelt_timeline_volume
+    direction: high_bad
+    thresholds: {warning: 0.5, alert: 1.5, critical: 3.0}
+
+  - id: gdelt_civil_unrest_watch
+    name: GDELT protest / riot / unrest volume
+    domain: civil_unrest
+    type: gdelt_timeline
+    query: '("civil unrest" OR protest OR riot OR "mass demonstration")'
+    timespan: 7d
+    unit: gdelt_timeline_volume
+    direction: high_bad
+    thresholds: {warning: 0.5, alert: 1.5, critical: 3.0}
