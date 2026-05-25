@@ -1,6 +1,6 @@
 {
-  "run_id": "20260525T095519Z",
-  "collected_at": "2026-05-25T09:57:29+00:00",
+  "run_id": "20260525T144226Z",
+  "collected_at": "2026-05-25T14:44:33+00:00",
   "signal_id": "gdelt_supply_chain_disruption_watch",
   "domain": "supply_chain",
   "source_name": "GDELT supply chain disruption volume",
