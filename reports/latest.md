@@ -1,4 +1,4 @@
-# RA Signal Agent Report — 2026-05-27
+# RA Signal Agent Report — 2026-05-28
 
 **Global state:** `critical`  
 **Global severity:** 90/100
@@ -6,11 +6,11 @@
 | Domain | Sources | OK | Negative space | Max severity |
 |---|---:|---:|---:|---:|
 | banking_cre | 3 | 1 | 2 | 85 |
-| food | 3 | 2 | 1 | 85 |
+| food | 3 | 3 | 0 | 90 |
 | water | 3 | 3 | 0 | 90 |
 | critical_minerals | 2 | 2 | 0 | 90 |
 | institutional_trust | 2 | 2 | 0 | 90 |
-| supply_chain | 1 | 1 | 0 | 90 |
+| supply_chain | 1 | 0 | 1 | 25 |
 | civil_unrest | 1 | 1 | 0 | 90 |
 
 ## Observations
@@ -22,7 +22,7 @@
 | `federal_reserve_stress_test_watch` | banking_cre | ok | critical | 85 | nd Communications Overview Supervision & Regulation Supervision Community Banks Regional Banks and Foreign Banks with U.S. Assets Large Banks and Large Foreign Banks Global Systemi |
 | `fao_food_price_index_watch` | food | ok | critical | 85 | FAO Food Price Index \| Food and Agriculture Organization of the United Nations Discover About FAO News Multimedia Main topics Statistics Members Publications English العربية 中文 Fr |
 | `world_bank_commodities_food_watch` | food | ok | critical | 85 | pril, driven largely by crude oil (+8.7%). The non-energy index grew 3.2%, with food prices edging up 1.5% and fertilizer prices jumping 14%. Beverage prices were steady at 0.4%, w |
-| `gdelt_food_shortage_watch` | food | error | negative_space | 25 | Source unavailable/unparsable; recorded as negative space. |
+| `gdelt_food_shortage_watch` | food | ok | critical | 90 | GDELT query=("food shortage" OR "food crisis" OR "food price inflation" OR "fertilizer shortage") timespan=7d |
 | `us_drought_monitor_data_watch` | water | ok | critical | 85 | Data Download \| U.S. Drought Monitor --> U.S. Drought Monitor Current Maps Compare Two Weeks Comparison Slider Map Archive Map Areas Map Types Map Viewer Change Maps Animations Ex |
 | `nasa_grace_groundwater_watch` | water | ok | critical | 85 |  long-term trends and mean seasonal amplitudes! ALL DATA Applications Hydrology Groundwater is a useful indicator of climate variability and human impacts on the environment. Land  |
 | `gdelt_water_shortage_watch` | water | ok | critical | 90 | GDELT query=("water shortage" OR "water rationing" OR "aquifer depletion" OR "reservoir levels") timespan=7d |
@@ -30,5 +30,5 @@
 | `gdelt_copper_lithium_shortage_watch` | critical_minerals | ok | critical | 90 | GDELT query=("copper shortage" OR "lithium deficit" OR "critical minerals shortage" OR "battery minerals shortage") timespan=7d |
 | `pew_public_trust_watch` | institutional_trust | ok | critical | 85 | Public Trust in Government: 1958-2025 \| Pew Research Center Numbers, Facts and Trends Shaping Your World Newsletters Press My Account Donate Contacted By Us? Read our research on: |
 | `gdelt_polarization_legitimacy_watch` | institutional_trust | ok | critical | 90 | GDELT query=("political polarization" OR "institutional trust" OR "government legitimacy" OR "elected officials") timespan=7d |
-| `gdelt_supply_chain_disruption_watch` | supply_chain | ok | critical | 90 | GDELT query=("supply chain disruption" OR "port congestion" OR "shipping disruption" OR "trade bottleneck") timespan=7d |
+| `gdelt_supply_chain_disruption_watch` | supply_chain | error | negative_space | 25 | Source unavailable/unparsable; recorded as negative space. |
 | `gdelt_civil_unrest_watch` | civil_unrest | ok | critical | 90 | GDELT query=("civil unrest" OR protest OR riot OR "mass demonstration") timespan=7d |
