@@ -7,8 +7,8 @@
 |---|---:|---:|---:|---:|
 | banking_cre | 3 | 1 | 2 | 85 |
 | food | 3 | 3 | 0 | 90 |
-| water | 3 | 3 | 0 | 90 |
-| critical_minerals | 2 | 1 | 1 | 25 |
+| water | 3 | 2 | 1 | 85 |
+| critical_minerals | 2 | 2 | 0 | 90 |
 | institutional_trust | 2 | 1 | 1 | 85 |
 | supply_chain | 1 | 1 | 0 | 90 |
 | civil_unrest | 1 | 1 | 0 | 90 |
@@ -25,9 +25,9 @@
 | `gdelt_food_shortage_watch` | food | ok | critical | 90 | GDELT query=("food shortage" OR "food crisis" OR "food price inflation" OR "fertilizer shortage") timespan=7d |
 | `us_drought_monitor_data_watch` | water | ok | critical | 85 | Data Download \| U.S. Drought Monitor --> U.S. Drought Monitor Current Maps Compare Two Weeks Comparison Slider Map Archive Map Areas Map Types Map Viewer Change Maps Animations Ex |
 | `nasa_grace_groundwater_watch` | water | ok | critical | 85 |  long-term trends and mean seasonal amplitudes! ALL DATA Applications Hydrology Groundwater is a useful indicator of climate variability and human impacts on the environment. Land  |
-| `gdelt_water_shortage_watch` | water | ok | critical | 90 | GDELT query=("water shortage" OR "water rationing" OR "aquifer depletion" OR "reservoir levels") timespan=7d |
+| `gdelt_water_shortage_watch` | water | error | negative_space | 25 | Source unavailable/unparsable; recorded as negative space. |
 | `usgs_mineral_commodity_summaries_watch` | critical_minerals | ok | monitor | 5 | Mineral Commodity Summaries \| U.S. Geological Survey Skip to main content An official website of the United States government Here's how you know Here's how you know Official webs |
-| `gdelt_copper_lithium_shortage_watch` | critical_minerals | error | negative_space | 25 | Source unavailable/unparsable; recorded as negative space. |
+| `gdelt_copper_lithium_shortage_watch` | critical_minerals | ok | critical | 90 | GDELT query=("copper shortage" OR "lithium deficit" OR "critical minerals shortage" OR "battery minerals shortage") timespan=7d |
 | `pew_public_trust_watch` | institutional_trust | ok | critical | 85 | Public Trust in Government: 1958-2025 \| Pew Research Center Numbers, Facts and Trends Shaping Your World Newsletters Press My Account Donate Contacted By Us? Read our research on: |
 | `gdelt_polarization_legitimacy_watch` | institutional_trust | error | negative_space | 25 | Source unavailable/unparsable; recorded as negative space. |
 | `gdelt_supply_chain_disruption_watch` | supply_chain | ok | critical | 90 | GDELT query=("supply chain disruption" OR "port congestion" OR "shipping disruption" OR "trade bottleneck") timespan=7d |
