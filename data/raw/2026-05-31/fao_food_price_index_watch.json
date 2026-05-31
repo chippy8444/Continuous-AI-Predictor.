@@ -1,6 +1,6 @@
 {
-  "run_id": "20260531T132327Z",
-  "collected_at": "2026-05-31T13:24:29+00:00",
+  "run_id": "20260531T190655Z",
+  "collected_at": "2026-05-31T19:07:58+00:00",
   "signal_id": "fao_food_price_index_watch",
   "domain": "food",
   "source_name": "FAO Food Price Index watch",
@@ -17,7 +17,7 @@
   "trend": null,
   "trend_window": null,
   "keyword_hits": 46,
-  "source_digest": "9ce588489c762f6fd032fd1a9a636754eefd77ca729761a7ed9872d23a6210f5",
+  "source_digest": "b38b0c4346c38e797bc0a261995c033c037c734defd3c5d19863899c7ce6c8a4",
   "evidence_excerpt": "FAO Food Price Index | Food and Agriculture Organization of the United Nations Discover About FAO News Multimedia Main topics Statistics Members Publications English \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u4e2d\u6587 Fran\u00e7ai",
   "negative_space": false,
   "error": null

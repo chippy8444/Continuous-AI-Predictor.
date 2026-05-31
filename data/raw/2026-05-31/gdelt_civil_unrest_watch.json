@@ -1,6 +1,6 @@
 {
-  "run_id": "20260531T132327Z",
-  "collected_at": "2026-05-31T13:24:59+00:00",
+  "run_id": "20260531T190655Z",
+  "collected_at": "2026-05-31T19:08:42+00:00",
   "signal_id": "gdelt_civil_unrest_watch",
   "domain": "civil_unrest",
   "source_name": "GDELT protest / riot / unrest volume",
