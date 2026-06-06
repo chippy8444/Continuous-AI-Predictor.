@@ -1,6 +1,6 @@
 {
-  "run_id": "20260606T023511Z",
-  "collected_at": "2026-06-06T02:36:37+00:00",
+  "run_id": "20260606T082739Z",
+  "collected_at": "2026-06-06T08:28:54+00:00",
   "signal_id": "gdelt_water_shortage_watch",
   "domain": "water",
   "source_name": "GDELT water shortage / rationing volume",
@@ -20,5 +20,5 @@
   "source_digest": null,
   "evidence_excerpt": "Source unavailable/unparsable; recorded as negative space.",
   "negative_space": true,
-  "error": "Invalid \\escape: line 1 column 51614 (char 51613)"
+  "error": "Invalid \\escape: line 1 column 48120 (char 48119)"
 }
