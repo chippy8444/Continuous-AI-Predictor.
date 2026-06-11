@@ -1,4 +1,4 @@
-# RA Signal Agent Report — 2026-06-10
+# RA Signal Agent Report — 2026-06-11
 
 **Global state:** `critical`  
 **Global severity:** 90/100
@@ -10,7 +10,7 @@
 | water | 3 | 2 | 1 | 85 |
 | critical_minerals | 2 | 2 | 0 | 90 |
 | institutional_trust | 2 | 2 | 0 | 90 |
-| supply_chain | 1 | 0 | 1 | 25 |
+| supply_chain | 1 | 1 | 0 | 90 |
 | civil_unrest | 1 | 0 | 1 | 25 |
 
 ## Observations
@@ -30,5 +30,5 @@
 | `gdelt_copper_lithium_shortage_watch` | critical_minerals | ok | critical | 90 | GDELT query=("copper shortage" OR "lithium deficit" OR "critical minerals shortage" OR "battery minerals shortage") timespan=7d |
 | `pew_public_trust_watch` | institutional_trust | ok | critical | 85 | Public Trust in Government: 1958-2025 \| Pew Research Center Numbers, Facts and Trends Shaping Your World Newsletters Press My Account Donate Contacted By Us? Read our research on: |
 | `gdelt_polarization_legitimacy_watch` | institutional_trust | ok | critical | 90 | GDELT query=("political polarization" OR "institutional trust" OR "government legitimacy" OR "elected officials") timespan=7d |
-| `gdelt_supply_chain_disruption_watch` | supply_chain | error | negative_space | 25 | Source unavailable/unparsable; recorded as negative space. |
+| `gdelt_supply_chain_disruption_watch` | supply_chain | ok | critical | 90 | GDELT query=("supply chain disruption" OR "port congestion" OR "shipping disruption" OR "trade bottleneck") timespan=7d |
 | `gdelt_civil_unrest_watch` | civil_unrest | error | negative_space | 25 | Source unavailable/unparsable; recorded as negative space. |
