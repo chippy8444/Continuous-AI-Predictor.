@@ -1,11 +1,11 @@
 {
-  "run_id": "20260614T025807Z",
-  "generated_at": "2026-06-14T02:59:33+00:00",
+  "run_id": "20260614T092332Z",
+  "generated_at": "2026-06-14T09:25:09+00:00",
   "global_state": "critical",
   "global_severity": 90,
   "source_count": 15,
-  "ok_count": 7,
-  "negative_space_count": 8,
+  "ok_count": 8,
+  "negative_space_count": 7,
   "triangulation": [
     {
       "domain": "banking_cre",
@@ -54,11 +54,12 @@
     {
       "domain": "institutional_trust",
       "sources": 2,
-      "ok": 0,
-      "negative_space": 2,
-      "max_severity": 25,
+      "ok": 1,
+      "negative_space": 1,
+      "max_severity": 85,
       "states": {
-        "negative_space": 2
+        "critical": 1,
+        "negative_space": 1
       }
     },
     {
@@ -89,8 +90,8 @@
   ],
   "latest_observations": [
     {
-      "run_id": "20260614T025807Z",
-      "collected_at": "2026-06-14T02:58:37+00:00",
+      "run_id": "20260614T092332Z",
+      "collected_at": "2026-06-14T09:24:02+00:00",
       "signal_id": "fred_financial_stress_stlfsi4",
       "domain": "banking_cre",
       "source_name": "FRED St. Louis Fed Financial Stress Index",
@@ -113,8 +114,8 @@
       "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)"
     },
     {
-      "run_id": "20260614T025807Z",
-      "collected_at": "2026-06-14T02:59:08+00:00",
+      "run_id": "20260614T092332Z",
+      "collected_at": "2026-06-14T09:24:33+00:00",
       "signal_id": "fred_cre_delinquency_all_banks",
       "domain": "banking_cre",
       "source_name": "FRED commercial real estate delinquency rate",
@@ -137,8 +138,8 @@
       "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)"
     },
     {
-      "run_id": "20260614T025807Z",
-      "collected_at": "2026-06-14T02:59:09+00:00",
+      "run_id": "20260614T092332Z",
+      "collected_at": "2026-06-14T09:24:33+00:00",
       "signal_id": "federal_reserve_stress_test_watch",
       "domain": "banking_cre",
       "source_name": "Federal Reserve stress test page watch",
@@ -155,14 +156,14 @@
       "trend": null,
       "trend_window": null,
       "keyword_hits": 8,
-      "source_digest": "e415a5f0129d64537fd75cfbe28d151ddc8820bb08fc0f013dab7d2b322045b6",
+      "source_digest": "55c40e564d054411ef8d226b7e76d77d7f6765478919944e455117991b7ae758",
       "evidence_excerpt": "nd Communications Overview Supervision & Regulation Supervision Community Banks Regional Banks and Foreign Banks with U.S. Assets Large Banks and Large Foreign Banks Global Systemically Important Banks Financial Market Utilities Consumer Compliance Resources f",
       "negative_space": false,
       "error": null
     },
     {
-      "run_id": "20260614T025807Z",
-      "collected_at": "2026-06-14T02:59:09+00:00",
+      "run_id": "20260614T092332Z",
+      "collected_at": "2026-06-14T09:24:34+00:00",
       "signal_id": "fao_food_price_index_watch",
       "domain": "food",
       "source_name": "FAO Food Price Index watch",
@@ -185,8 +186,8 @@
       "error": null
     },
     {
-      "run_id": "20260614T025807Z",
-      "collected_at": "2026-06-14T02:59:10+00:00",
+      "run_id": "20260614T092332Z",
+      "collected_at": "2026-06-14T09:24:35+00:00",
       "signal_id": "world_bank_commodities_food_watch",
       "domain": "food",
       "source_name": "World Bank commodity food market watch",
@@ -209,8 +210,8 @@
       "error": null
     },
     {
-      "run_id": "20260614T025807Z",
-      "collected_at": "2026-06-14T02:59:12+00:00",
+      "run_id": "20260614T092332Z",
+      "collected_at": "2026-06-14T09:24:39+00:00",
       "signal_id": "gdelt_food_shortage_watch",
       "domain": "food",
       "source_name": "GDELT food shortage / food inflation volume",
@@ -233,8 +234,8 @@
       "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22food+shortage%22+OR+%22food+crisis%22+OR+%22food+price+inflation%22+OR+%22fertilizer+shortage%22%29&mode=timelinevolinfo&format=json&timespan=7d"
     },
     {
-      "run_id": "20260614T025807Z",
-      "collected_at": "2026-06-14T02:59:13+00:00",
+      "run_id": "20260614T092332Z",
+      "collected_at": "2026-06-14T09:24:40+00:00",
       "signal_id": "us_drought_monitor_data_watch",
       "domain": "water",
       "source_name": "U.S. Drought Monitor data download watch",
@@ -251,14 +252,14 @@
       "trend": null,
       "trend_window": null,
       "keyword_hits": 36,
-      "source_digest": "a4333247b0793b9b3c49281bab86e51346b66962b5de177c6706a09f598e786e",
+      "source_digest": "50d1a2bbe25b215231904c257d25e40454d1ab773b6471a5ace849afd25c7018",
       "evidence_excerpt": "Data Download | U.S. Drought Monitor --> U.S. Drought Monitor Current Maps Compare Two Weeks Comparison Slider Map Archive Map Areas Map Types Map Viewer Change Maps Animations Export Animated GIF Cust",
       "negative_space": false,
       "error": null
     },
     {
-      "run_id": "20260614T025807Z",
-      "collected_at": "2026-06-14T02:59:14+00:00",
+      "run_id": "20260614T092332Z",
+      "collected_at": "2026-06-14T09:24:41+00:00",
       "signal_id": "nasa_grace_groundwater_watch",
       "domain": "water",
       "source_name": "NASA GRACE groundwater watch",
@@ -275,14 +276,14 @@
       "trend": null,
       "trend_window": null,
       "keyword_hits": 38,
-      "source_digest": "7cb731c6b2cc54b332a01d6a919542677386e105481fe79bd96d1306122f06aa",
+      "source_digest": "06e0dfd5975a630b14e4bc401aa54727942e5c5ed3904627e209f21e71461e5d",
       "evidence_excerpt": " long-term trends and mean seasonal amplitudes! ALL DATA Applications Hydrology Groundwater is a useful indicator of climate variability and human impacts on the environment. Land Ice GRACE resolves the mass balance of grounded ice sheets, glaciers and ice cap",
       "negative_space": false,
       "error": null
     },
     {
-      "run_id": "20260614T025807Z",
-      "collected_at": "2026-06-14T02:59:17+00:00",
+      "run_id": "20260614T092332Z",
+      "collected_at": "2026-06-14T09:24:45+00:00",
       "signal_id": "gdelt_water_shortage_watch",
       "domain": "water",
       "source_name": "GDELT water shortage / rationing volume",
@@ -305,8 +306,8 @@
       "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22water+shortage%22+OR+%22water+rationing%22+OR+%22aquifer+depletion%22+OR+%22reservoir+levels%22%29&mode=timelinevolinfo&format=json&timespan=7d"
     },
     {
-      "run_id": "20260614T025807Z",
-      "collected_at": "2026-06-14T02:59:19+00:00",
+      "run_id": "20260614T092332Z",
+      "collected_at": "2026-06-14T09:24:47+00:00",
       "signal_id": "usgs_mineral_commodity_summaries_watch",
       "domain": "critical_minerals",
       "source_name": "USGS mineral commodity summaries watch",
@@ -323,14 +324,14 @@
       "trend": null,
       "trend_window": null,
       "keyword_hits": 0,
-      "source_digest": "d1c0e00232f6343ea1444d5792e92eb8799f3f0904700c88bbce55672e4694a4",
+      "source_digest": "ad3488e3fe79a5a175d4ba6e2d41e5421d57196836c56b8a9ccf5663dc73fa09",
       "evidence_excerpt": "Mineral Commodity Summaries | U.S. Geological Survey Skip to main content An official website of the United States government Here's how you know Here's how you know Official websites use .gov A .gov website belongs to an official government organization in th",
       "negative_space": false,
       "error": null
     },
     {
-      "run_id": "20260614T025807Z",
-      "collected_at": "2026-06-14T02:59:21+00:00",
+      "run_id": "20260614T092332Z",
+      "collected_at": "2026-06-14T09:24:50+00:00",
       "signal_id": "gdelt_copper_lithium_shortage_watch",
       "domain": "critical_minerals",
       "source_name": "GDELT copper / lithium shortage volume",
@@ -353,32 +354,32 @@
       "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22copper+shortage%22+OR+%22lithium+deficit%22+OR+%22critical+minerals+shortage%22+OR+%22battery+minerals+shortage%22%29&mode=timelinevolinfo&format=json&timespan=7d"
     },
     {
-      "run_id": "20260614T025807Z",
-      "collected_at": "2026-06-14T02:59:22+00:00",
+      "run_id": "20260614T092332Z",
+      "collected_at": "2026-06-14T09:24:52+00:00",
       "signal_id": "pew_public_trust_watch",
       "domain": "institutional_trust",
       "source_name": "Pew public trust in government watch",
       "source_type": "text_watch",
       "source_url": "https://www.pewresearch.org/politics/2024/06/24/public-trust-in-government-1958-2024/",
-      "status": "error",
+      "status": "ok",
       "value": null,
-      "value_text": null,
+      "value_text": "80 keyword hits",
       "value_date": null,
-      "unit": null,
-      "severity": 25,
-      "state": "negative_space",
-      "confidence": 0.05,
+      "unit": "keyword_hits",
+      "severity": 85,
+      "state": "critical",
+      "confidence": 0.5,
       "trend": null,
       "trend_window": null,
-      "keyword_hits": null,
-      "source_digest": null,
-      "evidence_excerpt": "Source unavailable/unparsable; recorded as negative space.",
-      "negative_space": true,
-      "error": "403 Client Error: Forbidden for url: https://www.pewresearch.org/politics/2024/06/24/public-trust-in-government-1958-2024/"
+      "keyword_hits": 80,
+      "source_digest": "c1719898056c49ad5e3087a79d61cb3fb58daaf158729a93fe8983acd9289726",
+      "evidence_excerpt": "Public Trust in Government: 1958-2025 | Pew Research Center Numbers, Facts and Trends Shaping Your World Newsletters Press My Account Donate Contacted By Us? Read our research on: ",
+      "negative_space": false,
+      "error": null
     },
     {
-      "run_id": "20260614T025807Z",
-      "collected_at": "2026-06-14T02:59:25+00:00",
+      "run_id": "20260614T092332Z",
+      "collected_at": "2026-06-14T09:24:56+00:00",
       "signal_id": "gdelt_polarization_legitimacy_watch",
       "domain": "institutional_trust",
       "source_name": "GDELT polarization / legitimacy stress volume",
@@ -401,15 +402,15 @@
       "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22political+polarization%22+OR+%22institutional+trust%22+OR+%22government+legitimacy%22+OR+%22elected+officials%22%29&mode=timelinevolinfo&format=json&timespan=7d"
     },
     {
-      "run_id": "20260614T025807Z",
-      "collected_at": "2026-06-14T02:59:31+00:00",
+      "run_id": "20260614T092332Z",
+      "collected_at": "2026-06-14T09:25:02+00:00",
       "signal_id": "gdelt_supply_chain_disruption_watch",
       "domain": "supply_chain",
       "source_name": "GDELT supply chain disruption volume",
       "source_type": "gdelt_timeline",
       "source_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22supply+chain+disruption%22+OR+%22port+congestion%22+OR+%22shipping+disruption%22+OR+%22trade+bottleneck%22%29&mode=timelinevolinfo&format=json&timespan=7d",
       "status": "ok",
-      "value": 32441.0,
+      "value": 32641.0,
       "value_text": null,
       "value_date": "",
       "unit": "gdelt_timeline_volume",
@@ -419,14 +420,14 @@
       "trend": null,
       "trend_window": null,
       "keyword_hits": null,
-      "source_digest": "ffb516ccd9419b67b135df4ae01ad7c1a5f5acc504464feaa2a24eae1bd99d5e",
+      "source_digest": "db34d6ca5d8a823213891d7743c213054359d516ff0923830607096ac7c0d288",
       "evidence_excerpt": "GDELT query=(\"supply chain disruption\" OR \"port congestion\" OR \"shipping disruption\" OR \"trade bottleneck\") timespan=7d",
       "negative_space": false,
       "error": null
     },
     {
-      "run_id": "20260614T025807Z",
-      "collected_at": "2026-06-14T02:59:33+00:00",
+      "run_id": "20260614T092332Z",
+      "collected_at": "2026-06-14T09:25:09+00:00",
       "signal_id": "gdelt_civil_unrest_watch",
       "domain": "civil_unrest",
       "source_name": "GDELT protest / riot / unrest volume",
