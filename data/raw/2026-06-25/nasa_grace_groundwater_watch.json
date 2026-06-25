@@ -1,6 +1,6 @@
 {
-  "run_id": "20260625T141134Z",
-  "collected_at": "2026-06-25T14:12:48+00:00",
+  "run_id": "20260625T194942Z",
+  "collected_at": "2026-06-25T19:50:58+00:00",
   "signal_id": "nasa_grace_groundwater_watch",
   "domain": "water",
   "source_name": "NASA GRACE groundwater watch",
@@ -17,7 +17,7 @@
   "trend": null,
   "trend_window": null,
   "keyword_hits": 38,
-  "source_digest": "06e532256296ad75d142c2d6d1aecc9bf5863fd97fd0af219696718cb29ada6d",
+  "source_digest": "a98f721debff66efec0b66326d46feec76d0fa232d75d49625cdeedc2ad49a12",
   "evidence_excerpt": " long-term trends and mean seasonal amplitudes! ALL DATA Applications Hydrology Groundwater is a useful indicator of climate variability and human impacts on the environment. Land Ice GRACE resolves the mass balance of grounded ice sheets, glaciers and ice cap",
   "negative_space": false,
   "error": null
