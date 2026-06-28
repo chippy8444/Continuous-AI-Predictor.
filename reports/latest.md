@@ -1,4 +1,4 @@
-# RA Signal Agent Report — 2026-06-27
+# RA Signal Agent Report — 2026-06-28
 
 **Global state:** `critical`  
 **Global severity:** 85/100
