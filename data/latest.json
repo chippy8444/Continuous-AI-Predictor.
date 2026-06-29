@@ -1,6 +1,6 @@
 {
-  "run_id": "20260629T153549Z",
-  "generated_at": "2026-06-29T15:37:53+00:00",
+  "run_id": "20260629T194826Z",
+  "generated_at": "2026-06-29T19:49:39+00:00",
   "global_state": "critical",
   "global_severity": 85,
   "source_count": 15,
@@ -90,8 +90,8 @@
   ],
   "latest_observations": [
     {
-      "run_id": "20260629T153549Z",
-      "collected_at": "2026-06-29T15:36:19+00:00",
+      "run_id": "20260629T194826Z",
+      "collected_at": "2026-06-29T19:48:56+00:00",
       "signal_id": "fred_financial_stress_stlfsi4",
       "domain": "banking_cre",
       "source_name": "FRED St. Louis Fed Financial Stress Index",
@@ -114,8 +114,8 @@
       "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)"
     },
     {
-      "run_id": "20260629T153549Z",
-      "collected_at": "2026-06-29T15:36:50+00:00",
+      "run_id": "20260629T194826Z",
+      "collected_at": "2026-06-29T19:49:27+00:00",
       "signal_id": "fred_cre_delinquency_all_banks",
       "domain": "banking_cre",
       "source_name": "FRED commercial real estate delinquency rate",
@@ -138,8 +138,8 @@
       "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)"
     },
     {
-      "run_id": "20260629T153549Z",
-      "collected_at": "2026-06-29T15:36:50+00:00",
+      "run_id": "20260629T194826Z",
+      "collected_at": "2026-06-29T19:49:28+00:00",
       "signal_id": "federal_reserve_stress_test_watch",
       "domain": "banking_cre",
       "source_name": "Federal Reserve stress test page watch",
@@ -156,14 +156,14 @@
       "trend": null,
       "trend_window": null,
       "keyword_hits": 8,
-      "source_digest": "d7b0bcc2272c56aeb78541a02edb0c34557fc0aa37095fe02733c33953d8f268",
+      "source_digest": "03b5e72635099575ae6cf1968b544842ea3fea5ec32c266c40b69140ff82f1c8",
       "evidence_excerpt": "nd Communications Overview Supervision & Regulation Supervision Community Banks Regional Banks and Foreign Banks with U.S. Assets Large Banks and Large Foreign Banks Global Systemically Important Banks Financial Market Utilities Consumer Compliance Resources f",
       "negative_space": false,
       "error": null
     },
     {
-      "run_id": "20260629T153549Z",
-      "collected_at": "2026-06-29T15:36:51+00:00",
+      "run_id": "20260629T194826Z",
+      "collected_at": "2026-06-29T19:49:28+00:00",
       "signal_id": "fao_food_price_index_watch",
       "domain": "food",
       "source_name": "FAO Food Price Index watch",
@@ -186,8 +186,8 @@
       "error": null
     },
     {
-      "run_id": "20260629T153549Z",
-      "collected_at": "2026-06-29T15:36:52+00:00",
+      "run_id": "20260629T194826Z",
+      "collected_at": "2026-06-29T19:49:29+00:00",
       "signal_id": "world_bank_commodities_food_watch",
       "domain": "food",
       "source_name": "World Bank commodity food market watch",
@@ -204,14 +204,14 @@
       "trend": null,
       "trend_window": null,
       "keyword_hits": 43,
-      "source_digest": "e99bf4fb5acc216f8f43b08cd58e3b63d60d034a2230caccf22872e398f51341",
+      "source_digest": "509e0903ff8afb00372849fd5e5f959eebd83f80524834f9fd4e60dd313a5bab",
       "evidence_excerpt": " 6.1% increase in U.S. natural gas prices. The non-energy index rose 2.5%, with food prices up 1.9% while fertilizer prices eased 4.3%. Beverage prices increased 5.3%, and raw materials gained 2.1%. Metals prices rose 3.7%, whereas precious metals declined 1.7",
       "negative_space": false,
       "error": null
     },
     {
-      "run_id": "20260629T153549Z",
-      "collected_at": "2026-06-29T15:37:02+00:00",
+      "run_id": "20260629T194826Z",
+      "collected_at": "2026-06-29T19:49:30+00:00",
       "signal_id": "gdelt_food_shortage_watch",
       "domain": "food",
       "source_name": "GDELT food shortage / food inflation volume",
@@ -231,11 +231,11 @@
       "source_digest": null,
       "evidence_excerpt": "Source unavailable/unparsable; recorded as negative space.",
       "negative_space": true,
-      "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22food+shortage%22+OR+%22food+crisis%22+OR+%22food+price+inflation%22+OR+%22fertilizer+shortage%22%29&mode=timelinevolinfo&format=json&timespan=7d"
+      "error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28%22food+shortage%22+OR+%22food+crisis%22+OR+%22food+price+inflation%22+OR+%22fertilizer+shortage%22%29&mode=timelinevolinfo&format=json&timespan=7d (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))"
     },
     {
-      "run_id": "20260629T153549Z",
-      "collected_at": "2026-06-29T15:37:02+00:00",
+      "run_id": "20260629T194826Z",
+      "collected_at": "2026-06-29T19:49:31+00:00",
       "signal_id": "us_drought_monitor_data_watch",
       "domain": "water",
       "source_name": "U.S. Drought Monitor data download watch",
@@ -252,14 +252,14 @@
       "trend": null,
       "trend_window": null,
       "keyword_hits": 36,
-      "source_digest": "5dfacc2e0e4b095f3b5ce7db4932034c5313bfd90df1bd9f56fbcfe5d20076f1",
+      "source_digest": "f986509b6d4e05b96f3c054877a3eaa341f1dc1d47fc514fa8c21b0ce0a3d374",
       "evidence_excerpt": "Data Download | U.S. Drought Monitor --> U.S. Drought Monitor Current Maps Compare Two Weeks Comparison Slider Map Archive Map Areas Map Types Map Viewer Change Maps Animations Export Animated GIF Cust",
       "negative_space": false,
       "error": null
     },
     {
-      "run_id": "20260629T153549Z",
-      "collected_at": "2026-06-29T15:37:03+00:00",
+      "run_id": "20260629T194826Z",
+      "collected_at": "2026-06-29T19:49:32+00:00",
       "signal_id": "nasa_grace_groundwater_watch",
       "domain": "water",
       "source_name": "NASA GRACE groundwater watch",
@@ -276,14 +276,14 @@
       "trend": null,
       "trend_window": null,
       "keyword_hits": 38,
-      "source_digest": "f58db4588b69c108564132e0a3690f9a5b8da3ec40ca557d70064e8446584062",
+      "source_digest": "e8493c2426fb2aa6f9f2925e7aa815a461f0fcea1454125581e8ad2ebb3136ba",
       "evidence_excerpt": " long-term trends and mean seasonal amplitudes! ALL DATA Applications Hydrology Groundwater is a useful indicator of climate variability and human impacts on the environment. Land Ice GRACE resolves the mass balance of grounded ice sheets, glaciers and ice cap",
       "negative_space": false,
       "error": null
     },
     {
-      "run_id": "20260629T153549Z",
-      "collected_at": "2026-06-29T15:37:12+00:00",
+      "run_id": "20260629T194826Z",
+      "collected_at": "2026-06-29T19:49:33+00:00",
       "signal_id": "gdelt_water_shortage_watch",
       "domain": "water",
       "source_name": "GDELT water shortage / rationing volume",
@@ -303,11 +303,11 @@
       "source_digest": null,
       "evidence_excerpt": "Source unavailable/unparsable; recorded as negative space.",
       "negative_space": true,
-      "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22water+shortage%22+OR+%22water+rationing%22+OR+%22aquifer+depletion%22+OR+%22reservoir+levels%22%29&mode=timelinevolinfo&format=json&timespan=7d"
+      "error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28%22water+shortage%22+OR+%22water+rationing%22+OR+%22aquifer+depletion%22+OR+%22reservoir+levels%22%29&mode=timelinevolinfo&format=json&timespan=7d (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))"
     },
     {
-      "run_id": "20260629T153549Z",
-      "collected_at": "2026-06-29T15:37:15+00:00",
+      "run_id": "20260629T194826Z",
+      "collected_at": "2026-06-29T19:49:35+00:00",
       "signal_id": "usgs_mineral_commodity_summaries_watch",
       "domain": "critical_minerals",
       "source_name": "USGS mineral commodity summaries watch",
@@ -330,8 +330,8 @@
       "error": null
     },
     {
-      "run_id": "20260629T153549Z",
-      "collected_at": "2026-06-29T15:37:25+00:00",
+      "run_id": "20260629T194826Z",
+      "collected_at": "2026-06-29T19:49:35+00:00",
       "signal_id": "gdelt_copper_lithium_shortage_watch",
       "domain": "critical_minerals",
       "source_name": "GDELT copper / lithium shortage volume",
@@ -351,11 +351,11 @@
       "source_digest": null,
       "evidence_excerpt": "Source unavailable/unparsable; recorded as negative space.",
       "negative_space": true,
-      "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22copper+shortage%22+OR+%22lithium+deficit%22+OR+%22critical+minerals+shortage%22+OR+%22battery+minerals+shortage%22%29&mode=timelinevolinfo&format=json&timespan=7d"
+      "error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28%22copper+shortage%22+OR+%22lithium+deficit%22+OR+%22critical+minerals+shortage%22+OR+%22battery+minerals+shortage%22%29&mode=timelinevolinfo&format=json&timespan=7d (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))"
     },
     {
-      "run_id": "20260629T153549Z",
-      "collected_at": "2026-06-29T15:37:26+00:00",
+      "run_id": "20260629T194826Z",
+      "collected_at": "2026-06-29T19:49:37+00:00",
       "signal_id": "pew_public_trust_watch",
       "domain": "institutional_trust",
       "source_name": "Pew public trust in government watch",
@@ -372,14 +372,14 @@
       "trend": null,
       "trend_window": null,
       "keyword_hits": 80,
-      "source_digest": "ed38f87db5699f04c7f26a50efdf692349f2f601bf5c5f2a9e92065c77845e5c",
+      "source_digest": "12b736ccd1f022e76955f076dd4c9f72e3f01b9f221a30221795f95417c44834",
       "evidence_excerpt": "Public Trust in Government: 1958-2025 | Pew Research Center Numbers, Facts and Trends Shaping Your World Newsletters Press My Account Donate Contacted By Us? Read our research on: ",
       "negative_space": false,
       "error": null
     },
     {
-      "run_id": "20260629T153549Z",
-      "collected_at": "2026-06-29T15:37:35+00:00",
+      "run_id": "20260629T194826Z",
+      "collected_at": "2026-06-29T19:49:37+00:00",
       "signal_id": "gdelt_polarization_legitimacy_watch",
       "domain": "institutional_trust",
       "source_name": "GDELT polarization / legitimacy stress volume",
@@ -399,11 +399,11 @@
       "source_digest": null,
       "evidence_excerpt": "Source unavailable/unparsable; recorded as negative space.",
       "negative_space": true,
-      "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22political+polarization%22+OR+%22institutional+trust%22+OR+%22government+legitimacy%22+OR+%22elected+officials%22%29&mode=timelinevolinfo&format=json&timespan=7d"
+      "error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28%22political+polarization%22+OR+%22institutional+trust%22+OR+%22government+legitimacy%22+OR+%22elected+officials%22%29&mode=timelinevolinfo&format=json&timespan=7d (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))"
     },
     {
-      "run_id": "20260629T153549Z",
-      "collected_at": "2026-06-29T15:37:44+00:00",
+      "run_id": "20260629T194826Z",
+      "collected_at": "2026-06-29T19:49:38+00:00",
       "signal_id": "gdelt_supply_chain_disruption_watch",
       "domain": "supply_chain",
       "source_name": "GDELT supply chain disruption volume",
@@ -423,11 +423,11 @@
       "source_digest": null,
       "evidence_excerpt": "Source unavailable/unparsable; recorded as negative space.",
       "negative_space": true,
-      "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22supply+chain+disruption%22+OR+%22port+congestion%22+OR+%22shipping+disruption%22+OR+%22trade+bottleneck%22%29&mode=timelinevolinfo&format=json&timespan=7d"
+      "error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28%22supply+chain+disruption%22+OR+%22port+congestion%22+OR+%22shipping+disruption%22+OR+%22trade+bottleneck%22%29&mode=timelinevolinfo&format=json&timespan=7d (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))"
     },
     {
-      "run_id": "20260629T153549Z",
-      "collected_at": "2026-06-29T15:37:53+00:00",
+      "run_id": "20260629T194826Z",
+      "collected_at": "2026-06-29T19:49:38+00:00",
       "signal_id": "gdelt_civil_unrest_watch",
       "domain": "civil_unrest",
       "source_name": "GDELT protest / riot / unrest volume",
@@ -447,7 +447,7 @@
       "source_digest": null,
       "evidence_excerpt": "Source unavailable/unparsable; recorded as negative space.",
       "negative_space": true,
-      "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22civil+unrest%22+OR+protest+OR+riot+OR+%22mass+demonstration%22%29&mode=timelinevolinfo&format=json&timespan=7d"
+      "error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28%22civil+unrest%22+OR+protest+OR+riot+OR+%22mass+demonstration%22%29&mode=timelinevolinfo&format=json&timespan=7d (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))"
     }
   ]
 }
