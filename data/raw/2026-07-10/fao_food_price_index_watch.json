@@ -1,6 +1,6 @@
 {
-  "run_id": "20260710T022325Z",
-  "collected_at": "2026-07-10T02:24:27+00:00",
+  "run_id": "20260710T092322Z",
+  "collected_at": "2026-07-10T09:24:24+00:00",
   "signal_id": "fao_food_price_index_watch",
   "domain": "food",
   "source_name": "FAO Food Price Index watch",
