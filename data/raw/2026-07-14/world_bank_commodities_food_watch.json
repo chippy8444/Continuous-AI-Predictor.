@@ -1,6 +1,6 @@
 {
-  "run_id": "20260714T075133Z",
-  "collected_at": "2026-07-14T07:52:37+00:00",
+  "run_id": "20260714T131806Z",
+  "collected_at": "2026-07-14T13:19:09+00:00",
   "signal_id": "world_bank_commodities_food_watch",
   "domain": "food",
   "source_name": "World Bank commodity food market watch",
@@ -17,7 +17,7 @@
   "trend": null,
   "trend_window": null,
   "keyword_hits": 43,
-  "source_digest": "494a5489179ea2e48f66474db89bf448a7b033ac44fd1f4e49060b1fb14c6d39",
+  "source_digest": "edb7df812a0d77dd84bdc72acf79b75bf352959987cec91807f45d19f21b23a1",
   "evidence_excerpt": " 7.3% increase in U.S. natural gas prices. The non-energy index fell 3.2%, with food prices easing 2.6% and fertilizer prices plunging 21.8%. Beverage prices rose 1.1%, while raw materials declined 1.2%. Metal and precious metal prices fell 2.4% and 9.2%, resp",
   "negative_space": false,
   "error": null
