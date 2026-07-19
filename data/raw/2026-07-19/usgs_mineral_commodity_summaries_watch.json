@@ -1,6 +1,6 @@
 {
-  "run_id": "20260719T020328Z",
-  "collected_at": "2026-07-19T02:04:59+00:00",
+  "run_id": "20260719T080535Z",
+  "collected_at": "2026-07-19T08:07:07+00:00",
   "signal_id": "usgs_mineral_commodity_summaries_watch",
   "domain": "critical_minerals",
   "source_name": "USGS mineral commodity summaries watch",
@@ -17,7 +17,7 @@
   "trend": null,
   "trend_window": null,
   "keyword_hits": 0,
-  "source_digest": "d464669e10da6629081c07b28efbfbfd4ffec68d6fc3e65edba6040b15535e00",
+  "source_digest": "7172187c41ae201ebf284b9b4a2808c660b3aa9671aae04ffcf0dc0aef0cabbd",
   "evidence_excerpt": "Mineral Commodity Summaries | U.S. Geological Survey Skip to main content An official website of the United States government Here's how you know Here's how you know Official websites use .gov A .gov website belongs to an official government organization in th",
   "negative_space": false,
   "error": null
