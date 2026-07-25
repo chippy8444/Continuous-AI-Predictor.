@@ -1,6 +1,6 @@
 {
-  "run_id": "20260725T130926Z",
-  "collected_at": "2026-07-25T13:11:13+00:00",
+  "run_id": "20260725T185732Z",
+  "collected_at": "2026-07-25T18:59:11+00:00",
   "signal_id": "pew_public_trust_watch",
   "domain": "institutional_trust",
   "source_name": "Pew public trust in government watch",
@@ -17,7 +17,7 @@
   "trend": null,
   "trend_window": null,
   "keyword_hits": 80,
-  "source_digest": "48ba50969c9dfc9c54675ae6bc06a8768d90e95a5b06aaf9cbc0d5d73e0fb95a",
+  "source_digest": "dc1d429aa3628f4c72fa161d7e54b32c4e8ee0e9c30bc2218e6901adfe2d9e3e",
   "evidence_excerpt": "Public Trust in Government: 1958-2025 | Pew Research Center Numbers, Facts and Trends Shaping Your World Newsletters Press My Account Donate Contacted By Us? Read our research on: ",
   "negative_space": false,
   "error": null
