@@ -1,6 +1,6 @@
 {
-  "run_id": "20260725T075538Z",
-  "collected_at": "2026-07-25T07:56:52+00:00",
+  "run_id": "20260725T130926Z",
+  "collected_at": "2026-07-25T13:10:43+00:00",
   "signal_id": "us_drought_monitor_data_watch",
   "domain": "water",
   "source_name": "U.S. Drought Monitor data download watch",
@@ -17,7 +17,7 @@
   "trend": null,
   "trend_window": null,
   "keyword_hits": 37,
-  "source_digest": "0f4ccb5f65017ede042c4107a8e4392c8bd7319b2904d5745b111bd45a81a4c6",
+  "source_digest": "c5000c04f59af245705eeb26848557fd16ecc28a5d7dab03b37937caf7d2574c",
   "evidence_excerpt": "Data Download | U.S. Drought Monitor --> Register for the next U.S. Drought Monitor 101 Webinar on Thursday, August 13, 2026, from 3-4PM Eastern Time. U.S. Drought Monitor Current Maps Compare Two Week",
   "negative_space": false,
   "error": null
