@@ -7,8 +7,8 @@
 |---|---:|---:|---:|---:|
 | banking_cre | 3 | 1 | 2 | 85 |
 | food | 3 | 2 | 1 | 85 |
-| water | 3 | 2 | 1 | 85 |
-| critical_minerals | 2 | 1 | 1 | 25 |
+| water | 3 | 3 | 0 | 90 |
+| critical_minerals | 2 | 2 | 0 | 90 |
 | institutional_trust | 2 | 1 | 1 | 85 |
 | supply_chain | 1 | 1 | 0 | 90 |
 | civil_unrest | 1 | 0 | 1 | 25 |
@@ -25,9 +25,9 @@
 | `gdelt_food_shortage_watch` | food | error | negative_space | 25 | Source unavailable/unparsable; recorded as negative space. |
 | `us_drought_monitor_data_watch` | water | ok | critical | 85 | Data Download \| U.S. Drought Monitor --> Register for the next U.S. Drought Monitor 101 Webinar on Thursday, August 13, 2026, from 3-4PM Eastern Time. U.S. Drought Monitor Current |
 | `nasa_grace_groundwater_watch` | water | ok | critical | 85 | : GRACE and GRACE-FO are used by California's Department of Water Resources for Groundwater Management Information GRACE and GRACE-FO observations are now addressing the crucial ne |
-| `gdelt_water_shortage_watch` | water | error | negative_space | 25 | Source unavailable/unparsable; recorded as negative space. |
+| `gdelt_water_shortage_watch` | water | ok | critical | 90 | GDELT query=("water shortage" OR "water rationing" OR "aquifer depletion" OR "reservoir levels") timespan=7d |
 | `usgs_mineral_commodity_summaries_watch` | critical_minerals | ok | monitor | 5 | Mineral Commodity Summaries \| U.S. Geological Survey Skip to main content An official website of the United States government Here's how you know Here's how you know Official webs |
-| `gdelt_copper_lithium_shortage_watch` | critical_minerals | error | negative_space | 25 | Source unavailable/unparsable; recorded as negative space. |
+| `gdelt_copper_lithium_shortage_watch` | critical_minerals | ok | critical | 90 | GDELT query=("copper shortage" OR "lithium deficit" OR "critical minerals shortage" OR "battery minerals shortage") timespan=7d |
 | `pew_public_trust_watch` | institutional_trust | ok | critical | 85 | Public Trust in Government: 1958-2025 \| Pew Research Center Numbers, Facts and Trends Shaping Your World Newsletters Press My Account Donate Contacted By Us? Read our research on: |
 | `gdelt_polarization_legitimacy_watch` | institutional_trust | error | negative_space | 25 | Source unavailable/unparsable; recorded as negative space. |
 | `gdelt_supply_chain_disruption_watch` | supply_chain | ok | critical | 90 | GDELT query=("supply chain disruption" OR "port congestion" OR "shipping disruption" OR "trade bottleneck") timespan=7d |
