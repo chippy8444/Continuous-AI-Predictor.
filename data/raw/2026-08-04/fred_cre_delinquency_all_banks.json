@@ -1,6 +1,6 @@
 {
-  "run_id": "20260804T082624Z",
-  "collected_at": "2026-08-04T08:27:25+00:00",
+  "run_id": "20260804T135433Z",
+  "collected_at": "2026-08-04T13:55:34+00:00",
   "signal_id": "fred_cre_delinquency_all_banks",
   "domain": "banking_cre",
   "source_name": "FRED commercial real estate delinquency rate",
