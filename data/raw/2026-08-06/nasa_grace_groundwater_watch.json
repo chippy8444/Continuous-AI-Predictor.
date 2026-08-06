@@ -1,6 +1,6 @@
 {
-  "run_id": "20260806T134850Z",
-  "collected_at": "2026-08-06T13:50:07+00:00",
+  "run_id": "20260806T235239Z",
+  "collected_at": "2026-08-06T23:53:54+00:00",
   "signal_id": "nasa_grace_groundwater_watch",
   "domain": "water",
   "source_name": "NASA GRACE groundwater watch",
@@ -17,7 +17,7 @@
   "trend": null,
   "trend_window": null,
   "keyword_hits": 40,
-  "source_digest": "d9b1f637437da3d62c40664cd23e5042aa9c49e6a76c1013df3f261dbab55339",
+  "source_digest": "8a029771b9fcb2a8d9936f5495194b8d7d8a9c0cee3cfad9d575261baddecd4c",
   "evidence_excerpt": ": GRACE and GRACE-FO are used by California's Department of Water Resources for Groundwater Management Information GRACE and GRACE-FO observations are now addressing the crucial need for sustainable groundwater management practices to ensure water resiliency a",
   "negative_space": false,
   "error": null
