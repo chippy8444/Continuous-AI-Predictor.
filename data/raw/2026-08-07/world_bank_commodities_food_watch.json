@@ -1,6 +1,6 @@
 {
-  "run_id": "20260807T022023Z",
-  "collected_at": "2026-08-07T02:21:26+00:00",
+  "run_id": "20260807T070346Z",
+  "collected_at": "2026-08-07T07:04:49+00:00",
   "signal_id": "world_bank_commodities_food_watch",
   "domain": "food",
   "source_name": "World Bank commodity food market watch",
@@ -17,7 +17,7 @@
   "trend": null,
   "trend_window": null,
   "keyword_hits": 40,
-  "source_digest": "351ae20ede4369b171716046c6f645005adf257af566adc3f0eca3190b0bb995",
+  "source_digest": "9782dc5fe8fbcf90d9d9d3db3315bb7250349c3b8c7c9e06a1ad89a5109cc393",
   "evidence_excerpt": "opean natural gas prices. The non-energy index remained broadly stable (+0.3%). Food prices changed little (-0.3%), fertilizers declined 4.3%, beverage prices rose 17.4%, while raw materials slipped 0.5%. Metals fell 2.8%, and precious metals retreated 5.2%. N",
   "negative_space": false,
   "error": null
