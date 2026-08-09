@@ -1,12 +1,12 @@
 # RA Signal Agent Report — 2026-08-09
 
 **Global state:** `critical`  
-**Global severity:** 85/100
+**Global severity:** 90/100
 
 | Domain | Sources | OK | Negative space | Max severity |
 |---|---:|---:|---:|---:|
 | banking_cre | 3 | 1 | 2 | 85 |
-| food | 3 | 2 | 1 | 85 |
+| food | 3 | 3 | 0 | 90 |
 | water | 3 | 2 | 1 | 85 |
 | critical_minerals | 2 | 1 | 1 | 25 |
 | institutional_trust | 2 | 1 | 1 | 85 |
@@ -22,7 +22,7 @@
 | `federal_reserve_stress_test_watch` | banking_cre | ok | critical | 85 | nd Communications Overview Supervision & Regulation Supervision Community Banks Regional Banks and Foreign Banks with U.S. Assets Large Banks and Large Foreign Banks Global Systemi |
 | `fao_food_price_index_watch` | food | ok | critical | 85 | FAO Food Price Index \| Food and Agriculture Organization of the United Nations Discover About FAO News Multimedia Main topics Statistics Members Publications English العربية 中文 Fr |
 | `world_bank_commodities_food_watch` | food | ok | critical | 85 | opean natural gas prices. The non-energy index remained broadly stable (+0.3%). Food prices changed little (-0.3%), fertilizers declined 4.3%, beverage prices rose 17.4%, while raw |
-| `gdelt_food_shortage_watch` | food | error | negative_space | 25 | Source unavailable/unparsable; recorded as negative space. |
+| `gdelt_food_shortage_watch` | food | ok | critical | 90 | GDELT query=("food shortage" OR "food crisis" OR "food price inflation" OR "fertilizer shortage") timespan=7d |
 | `us_drought_monitor_data_watch` | water | ok | critical | 85 | Data Download \| U.S. Drought Monitor --> Register for the next U.S. Drought Monitor 101 Webinar on Thursday, August 13, 2026, from 3-4PM Eastern Time. U.S. Drought Monitor Current |
 | `nasa_grace_groundwater_watch` | water | ok | critical | 85 | : GRACE and GRACE-FO are used by California's Department of Water Resources for Groundwater Management Information GRACE and GRACE-FO observations are now addressing the crucial ne |
 | `gdelt_water_shortage_watch` | water | error | negative_space | 25 | Source unavailable/unparsable; recorded as negative space. |
