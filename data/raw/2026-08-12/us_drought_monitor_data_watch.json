@@ -1,6 +1,6 @@
 {
-  "run_id": "20260812T125301Z",
-  "collected_at": "2026-08-12T12:54:20+00:00",
+  "run_id": "20260812T185315Z",
+  "collected_at": "2026-08-12T18:54:36+00:00",
   "signal_id": "us_drought_monitor_data_watch",
   "domain": "water",
   "source_name": "U.S. Drought Monitor data download watch",
@@ -8,7 +8,7 @@
   "source_url": "https://droughtmonitor.unl.edu/DmData/DataDownload.aspx",
   "status": "ok",
   "value": null,
-  "value_text": "37 keyword hits",
+  "value_text": "36 keyword hits",
   "value_date": null,
   "unit": "keyword_hits",
   "severity": 85,
@@ -16,9 +16,9 @@
   "confidence": 0.5,
   "trend": null,
   "trend_window": null,
-  "keyword_hits": 37,
-  "source_digest": "34d8c73f7d5faa4026cdcb0dad265038df6853692cb417e297823755b2c9d674",
-  "evidence_excerpt": "Data Download | U.S. Drought Monitor --> Register for the next U.S. Drought Monitor 101 Webinar on Thursday, August 13, 2026, from 3-4PM Eastern Time. U.S. Drought Monitor Current Maps Compare Two Week",
+  "keyword_hits": 36,
+  "source_digest": "47c2af16228add0a17b1e862fb951e92ef83f3aa5d2a50487ace639922d58350",
+  "evidence_excerpt": "Data Download | U.S. Drought Monitor --> --> U.S. Drought Monitor Current Maps Compare Two Weeks Comparison Slider Map Archive Map Areas Map Types Map Viewer Change Maps Animations Export Animated GIF ",
   "negative_space": false,
   "error": null
 }
