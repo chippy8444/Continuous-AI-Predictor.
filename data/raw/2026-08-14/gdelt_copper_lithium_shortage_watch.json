@@ -1,6 +1,6 @@
 {
-  "run_id": "20260814T125043Z",
-  "collected_at": "2026-08-14T12:52:35+00:00",
+  "run_id": "20260814T184334Z",
+  "collected_at": "2026-08-14T18:45:26+00:00",
   "signal_id": "gdelt_copper_lithium_shortage_watch",
   "domain": "critical_minerals",
   "source_name": "GDELT copper / lithium shortage volume",
@@ -17,7 +17,7 @@
   "trend": null,
   "trend_window": null,
   "keyword_hits": null,
-  "source_digest": "6b2e15df9d081d7aa36e3b1b57c7afaef4d88de4c9f3e81441451071d836eea7",
+  "source_digest": "9b032945506e039d0e5b3b79baa10294891dfaa0e6840af918bf5e11d6bae8fb",
   "evidence_excerpt": "GDELT query=(\"copper shortage\" OR \"lithium deficit\" OR \"critical minerals shortage\" OR \"battery minerals shortage\") timespan=7d",
   "negative_space": false,
   "error": null
