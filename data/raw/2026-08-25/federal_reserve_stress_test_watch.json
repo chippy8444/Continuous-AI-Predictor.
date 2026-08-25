@@ -1,6 +1,6 @@
 {
-  "run_id": "20260825T005335Z",
-  "collected_at": "2026-08-25T00:54:37+00:00",
+  "run_id": "20260825T063435Z",
+  "collected_at": "2026-08-25T06:35:36+00:00",
   "signal_id": "federal_reserve_stress_test_watch",
   "domain": "banking_cre",
   "source_name": "Federal Reserve stress test page watch",
@@ -17,7 +17,7 @@
   "trend": null,
   "trend_window": null,
   "keyword_hits": 8,
-  "source_digest": "1070631317d8e657d999b95eec0171711be56c0d8c32f2fbf20fe93804b46494",
+  "source_digest": "89afe508ed2b3f588909777d9270a47c90f8b7fb7350891dc00b752eccf90679",
   "evidence_excerpt": "nd Communications Overview Supervision & Regulation Supervision Community Banks Regional Banks and Foreign Banks with U.S. Assets Large Banks and Large Foreign Banks Global Systemically Important Banks Financial Market Utilities Consumer Compliance Resources f",
   "negative_space": false,
   "error": null
