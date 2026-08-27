@@ -1,6 +1,6 @@
 {
-  "run_id": "20260827T063709Z",
-  "collected_at": "2026-08-27T06:37:40+00:00",
+  "run_id": "20260827T213347Z",
+  "collected_at": "2026-08-27T21:34:17+00:00",
   "signal_id": "fred_financial_stress_stlfsi4",
   "domain": "banking_cre",
   "source_name": "FRED St. Louis Fed Financial Stress Index",
