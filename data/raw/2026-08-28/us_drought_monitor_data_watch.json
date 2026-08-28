@@ -1,6 +1,6 @@
 {
-  "run_id": "20260828T082709Z",
-  "collected_at": "2026-08-28T08:28:40+00:00",
+  "run_id": "20260828T213817Z",
+  "collected_at": "2026-08-28T21:39:21+00:00",
   "signal_id": "us_drought_monitor_data_watch",
   "domain": "water",
   "source_name": "U.S. Drought Monitor data download watch",
@@ -17,7 +17,7 @@
   "trend": null,
   "trend_window": null,
   "keyword_hits": 36,
-  "source_digest": "ad57a37bc1768cda6dfd11a6f14a6329bee61bfd5bd1690c2d5acd757ce304ae",
+  "source_digest": "4770bd3163ca7ca477af96106ab39511f22b4db22cf0f3c11073864ccc7b21b8",
   "evidence_excerpt": "Data Download | U.S. Drought Monitor --> --> U.S. Drought Monitor Current Maps Compare Two Weeks Comparison Slider Map Archive Map Areas Map Types Map Viewer Change Maps Animations Export Animated GIF ",
   "negative_space": false,
   "error": null
