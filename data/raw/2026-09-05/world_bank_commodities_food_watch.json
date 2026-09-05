@@ -1,6 +1,6 @@
 {
-  "run_id": "20260905T142213Z",
-  "collected_at": "2026-09-05T14:23:15+00:00",
+  "run_id": "20260905T194724Z",
+  "collected_at": "2026-09-05T19:48:27+00:00",
   "signal_id": "world_bank_commodities_food_watch",
   "domain": "food",
   "source_name": "World Bank commodity food market watch",
@@ -17,7 +17,7 @@
   "trend": null,
   "trend_window": null,
   "keyword_hits": 41,
-  "source_digest": "a273bd1881996bd8fbbb42648b31588c6d31e4d115e344d908af1db59235a633",
+  "source_digest": "5a92ec4f293e23d0b0a4cdea276e0a9938e502532fba1957579491b62aaa1067",
   "evidence_excerpt": "e index rose 8.8% in August, led by natural gas (+10.1%) and crude oil (+5.7%). Food prices increased 1.4%, while beverage and raw material prices rose 2.0% and 2.2%, respectively. Fertilizer prices eased 1.9%. Metal prices increased 4.0%, while precious metal",
   "negative_space": false,
   "error": null
