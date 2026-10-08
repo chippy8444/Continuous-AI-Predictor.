@@ -1,6 +1,6 @@
 {
-  "run_id": "20261008T123632Z",
-  "collected_at": "2026-10-08T12:37:35+00:00",
+  "run_id": "20261008T224345Z",
+  "collected_at": "2026-10-08T22:44:48+00:00",
   "signal_id": "world_bank_commodities_food_watch",
   "domain": "food",
   "source_name": "World Bank commodity food market watch",
@@ -17,7 +17,7 @@
   "trend": null,
   "trend_window": null,
   "keyword_hits": 39,
-  "source_digest": "912105735e2fd8236227a114c4581a74467702dc48c9d9cb3f968b656835fbef",
+  "source_digest": "ebb5839f783360c037d1f2bde60ac7d735f520009e7344118d2e5dfd4aa9248a",
   "evidence_excerpt": "oil (+21.2%) and natural gas (+15.3%). The non-energy index edged up 1.3%, with food prices rising 3.8% and fertilizers increasing by 0.4%. Beverage prices declined by 4.6%, while raw materials edged up 0.9%. Metals were broadly stable, increasing 0.4%, while ",
   "negative_space": false,
   "error": null
