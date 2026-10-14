@@ -1,6 +1,6 @@
 {
-  "run_id": "20261014T161824Z",
-  "collected_at": "2026-10-14T16:19:40+00:00",
+  "run_id": "20261014T211043Z",
+  "collected_at": "2026-10-14T21:11:57+00:00",
   "signal_id": "us_drought_monitor_data_watch",
   "domain": "water",
   "source_name": "U.S. Drought Monitor data download watch",
@@ -8,7 +8,7 @@
   "source_url": "https://droughtmonitor.unl.edu/DmData/DataDownload.aspx",
   "status": "ok",
   "value": null,
-  "value_text": "36 keyword hits",
+  "value_text": "37 keyword hits",
   "value_date": null,
   "unit": "keyword_hits",
   "severity": 85,
@@ -16,9 +16,9 @@
   "confidence": 0.5,
   "trend": null,
   "trend_window": null,
-  "keyword_hits": 36,
-  "source_digest": "e0e11c2835fde652ef684d6ba76a53ed8cadd75abeac27d9b11dc5bf51de6e1f",
-  "evidence_excerpt": "Data Download | U.S. Drought Monitor --> --> U.S. Drought Monitor Current Maps Compare Two Weeks Comparison Slider Map Archive Map Areas Map Types Map Viewer Change Maps Animations Export Animated GIF ",
+  "keyword_hits": 37,
+  "source_digest": "81c10c62c27fcf2e89237e86d0f518c4e008f246a3323bf1c47982c3a9f5cb9d",
+  "evidence_excerpt": "Data Download | U.S. Drought Monitor --> Register for the next U.S. Drought Monitor 101 Webinar/Q&A taking place on Wednesday, October 28, 2026, from 2-3PM Eastern Time. U.S. Drought Monitor Current Ma",
   "negative_space": false,
   "error": null
 }
