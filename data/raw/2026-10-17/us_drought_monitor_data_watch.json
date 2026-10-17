@@ -1,6 +1,6 @@
 {
-  "run_id": "20261017T144658Z",
-  "collected_at": "2026-10-17T14:48:14+00:00",
+  "run_id": "20261017T195617Z",
+  "collected_at": "2026-10-17T19:57:31+00:00",
   "signal_id": "us_drought_monitor_data_watch",
   "domain": "water",
   "source_name": "U.S. Drought Monitor data download watch",
@@ -17,7 +17,7 @@
   "trend": null,
   "trend_window": null,
   "keyword_hits": 37,
-  "source_digest": "5e4e7b29fb458b39d3f3df5d7d7255cac843cb04e1e103cd8cae3f9e3d5dc14c",
+  "source_digest": "495ba693d580203ec66ba3e4d4bed3263f3212d7895c0508b4ae992ed1f7171f",
   "evidence_excerpt": "Data Download | U.S. Drought Monitor --> Register for the next U.S. Drought Monitor 101 Webinar/Q&A taking place on Wednesday, October 28, 2026, from 2-3PM Eastern Time. U.S. Drought Monitor Current Ma",
   "negative_space": false,
   "error": null
