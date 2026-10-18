@@ -6,7 +6,7 @@
 | Domain | Sources | OK | Negative space | Max severity |
 |---|---:|---:|---:|---:|
 | banking_cre | 3 | 1 | 2 | 85 |
-| food | 3 | 2 | 1 | 85 |
+| food | 3 | 3 | 0 | 90 |
 | water | 3 | 3 | 0 | 90 |
 | critical_minerals | 2 | 1 | 1 | 25 |
 | institutional_trust | 2 | 1 | 1 | 85 |
@@ -22,7 +22,7 @@
 | `federal_reserve_stress_test_watch` | banking_cre | ok | critical | 85 | nd Communications Overview Supervision & Regulation Supervision Community Banks Regional Banks and Foreign Banks with U.S. Assets Large Banks and Large Foreign Banks Global Systemi |
 | `fao_food_price_index_watch` | food | ok | critical | 85 | FAO Food Price Index \| Food and Agriculture Organization of the United Nations Discover About FAO News Multimedia Main topics Statistics Members Publications English العربية 中文 Fr |
 | `world_bank_commodities_food_watch` | food | ok | critical | 85 | oil (+21.2%) and natural gas (+15.3%). The non-energy index edged up 1.3%, with food prices rising 3.8% and fertilizers increasing by 0.4%. Beverage prices declined by 4.6%, while  |
-| `gdelt_food_shortage_watch` | food | error | negative_space | 25 | Source unavailable/unparsable; recorded as negative space. |
+| `gdelt_food_shortage_watch` | food | ok | critical | 90 | GDELT query=("food shortage" OR "food crisis" OR "food price inflation" OR "fertilizer shortage") timespan=7d |
 | `us_drought_monitor_data_watch` | water | ok | critical | 85 | Data Download \| U.S. Drought Monitor --> Register for the next U.S. Drought Monitor 101 Webinar/Q&A taking place on Wednesday, October 28, 2026, from 2-3PM Eastern Time. U.S. Drou |
 | `nasa_grace_groundwater_watch` | water | ok | critical | 85 | : GRACE and GRACE-FO are used by California's Department of Water Resources for Groundwater Management Information GRACE and GRACE-FO observations are now addressing the crucial ne |
 | `gdelt_water_shortage_watch` | water | ok | critical | 90 | GDELT query=("water shortage" OR "water rationing" OR "aquifer depletion" OR "reservoir levels") timespan=7d |
