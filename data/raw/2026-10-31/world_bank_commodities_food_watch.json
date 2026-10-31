@@ -1,6 +1,6 @@
 {
-  "run_id": "20261031T113113Z",
-  "collected_at": "2026-10-31T11:32:16+00:00",
+  "run_id": "20261031T163901Z",
+  "collected_at": "2026-10-31T16:40:04+00:00",
   "signal_id": "world_bank_commodities_food_watch",
   "domain": "food",
   "source_name": "World Bank commodity food market watch",
@@ -17,7 +17,7 @@
   "trend": null,
   "trend_window": null,
   "keyword_hits": 38,
-  "source_digest": "4497897d160de8921ca9065b5d95341bb39f94da248e00365d8bcb99942fe53c",
+  "source_digest": "d8e9ab89796f51ab89633df68ebcc775cd22ac786247bba1ce2aa7d74c5537e5",
   "evidence_excerpt": "o a four-year high. Disrupted grain shipments and El Ni\u00f1o threaten harvests and food affordability. Metal and minerals prices are set to reach an all-time peak in 2026 as aluminum, copper, and tin prices hit record highs. Next update: April 2027. Report Press ",
   "negative_space": false,
   "error": null
