@@ -1,11 +1,11 @@
 {
-  "run_id": "20261031T163901Z",
-  "generated_at": "2026-10-31T16:41:30+00:00",
+  "run_id": "20261031T205141Z",
+  "generated_at": "2026-10-31T20:53:50+00:00",
   "global_state": "critical",
-  "global_severity": 90,
+  "global_severity": 85,
   "source_count": 15,
-  "ok_count": 8,
-  "negative_space_count": 7,
+  "ok_count": 7,
+  "negative_space_count": 8,
   "triangulation": [
     {
       "domain": "banking_cre",
@@ -21,11 +21,12 @@
     {
       "domain": "food",
       "sources": 3,
-      "ok": 3,
-      "negative_space": 0,
-      "max_severity": 90,
+      "ok": 2,
+      "negative_space": 1,
+      "max_severity": 85,
       "states": {
-        "critical": 3
+        "critical": 2,
+        "negative_space": 1
       }
     },
     {
@@ -89,8 +90,8 @@
   ],
   "latest_observations": [
     {
-      "run_id": "20261031T163901Z",
-      "collected_at": "2026-10-31T16:39:31+00:00",
+      "run_id": "20261031T205141Z",
+      "collected_at": "2026-10-31T20:52:11+00:00",
       "signal_id": "fred_financial_stress_stlfsi4",
       "domain": "banking_cre",
       "source_name": "FRED St. Louis Fed Financial Stress Index",
@@ -113,8 +114,8 @@
       "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)"
     },
     {
-      "run_id": "20261031T163901Z",
-      "collected_at": "2026-10-31T16:40:02+00:00",
+      "run_id": "20261031T205141Z",
+      "collected_at": "2026-10-31T20:52:42+00:00",
       "signal_id": "fred_cre_delinquency_all_banks",
       "domain": "banking_cre",
       "source_name": "FRED commercial real estate delinquency rate",
@@ -137,8 +138,8 @@
       "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)"
     },
     {
-      "run_id": "20261031T163901Z",
-      "collected_at": "2026-10-31T16:40:02+00:00",
+      "run_id": "20261031T205141Z",
+      "collected_at": "2026-10-31T20:52:43+00:00",
       "signal_id": "federal_reserve_stress_test_watch",
       "domain": "banking_cre",
       "source_name": "Federal Reserve stress test page watch",
@@ -155,14 +156,14 @@
       "trend": null,
       "trend_window": null,
       "keyword_hits": 8,
-      "source_digest": "59a79855f9c2d296ffaa1730ad172d1d17c4926e4c71a17eeb94b89a9784cf7e",
+      "source_digest": "604e97269776c72606c76306d5a3ae45b0bb27266d1fdf9667e9f366fd81bb68",
       "evidence_excerpt": "nd Communications Overview Supervision & Regulation Supervision Community Banks Regional Banks and Foreign Banks with U.S. Assets Large Banks and Large Foreign Banks Global Systemically Important Banks Financial Market Utilities Consumer Compliance Resources f",
       "negative_space": false,
       "error": null
     },
     {
-      "run_id": "20261031T163901Z",
-      "collected_at": "2026-10-31T16:40:03+00:00",
+      "run_id": "20261031T205141Z",
+      "collected_at": "2026-10-31T20:52:43+00:00",
       "signal_id": "fao_food_price_index_watch",
       "domain": "food",
       "source_name": "FAO Food Price Index watch",
@@ -179,14 +180,14 @@
       "trend": null,
       "trend_window": null,
       "keyword_hits": 38,
-      "source_digest": "927638a7bc3a5b888ca47d876e2d02255e9e6f87649963d297e6442811d3ec6e",
+      "source_digest": "a412cb8c5557788e8e262f5af78961646d6ff88bddb7a31b9a854727349762a3",
       "evidence_excerpt": "FAO Food Price Index | Food and Agriculture Organization of the United Nations Discover About FAO News Multimedia Main topics Statistics Members Publications English \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u4e2d\u6587 Fran\u00e7ai",
       "negative_space": false,
       "error": null
     },
     {
-      "run_id": "20261031T163901Z",
-      "collected_at": "2026-10-31T16:40:04+00:00",
+      "run_id": "20261031T205141Z",
+      "collected_at": "2026-10-31T20:52:44+00:00",
       "signal_id": "world_bank_commodities_food_watch",
       "domain": "food",
       "source_name": "World Bank commodity food market watch",
@@ -203,38 +204,38 @@
       "trend": null,
       "trend_window": null,
       "keyword_hits": 38,
-      "source_digest": "d8e9ab89796f51ab89633df68ebcc775cd22ac786247bba1ce2aa7d74c5537e5",
+      "source_digest": "ae79d88484ac29aa327a97f3da729431d4e3c2c534213a67989dd62b8950c22d",
       "evidence_excerpt": "o a four-year high. Disrupted grain shipments and El Ni\u00f1o threaten harvests and food affordability. Metal and minerals prices are set to reach an all-time peak in 2026 as aluminum, copper, and tin prices hit record highs. Next update: April 2027. Report Press ",
       "negative_space": false,
       "error": null
     },
     {
-      "run_id": "20261031T163901Z",
-      "collected_at": "2026-10-31T16:40:21+00:00",
+      "run_id": "20261031T205141Z",
+      "collected_at": "2026-10-31T20:52:54+00:00",
       "signal_id": "gdelt_food_shortage_watch",
       "domain": "food",
       "source_name": "GDELT food shortage / food inflation volume",
       "source_type": "gdelt_timeline",
-      "source_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22food+shortage%22+OR+%22food+crisis%22+OR+%22food+price+inflation%22+OR+%22fertilizer+shortage%22%29&mode=timelinevolinfo&format=json&timespan=7d",
-      "status": "ok",
-      "value": 8894.0,
+      "source_url": "(\"food shortage\" OR \"food crisis\" OR \"food price inflation\" OR \"fertilizer shortage\")",
+      "status": "error",
+      "value": null,
       "value_text": null,
-      "value_date": "",
+      "value_date": null,
       "unit": "gdelt_timeline_volume",
-      "severity": 90,
-      "state": "critical",
-      "confidence": 0.75,
+      "severity": 25,
+      "state": "negative_space",
+      "confidence": 0.05,
       "trend": null,
       "trend_window": null,
       "keyword_hits": null,
-      "source_digest": "911712ea8d82c9c650fa59efae4347f42d9cd2e8fab58dd5361d3faf0c9c66e9",
-      "evidence_excerpt": "GDELT query=(\"food shortage\" OR \"food crisis\" OR \"food price inflation\" OR \"fertilizer shortage\") timespan=7d",
-      "negative_space": false,
-      "error": null
+      "source_digest": null,
+      "evidence_excerpt": "Source unavailable/unparsable; recorded as negative space.",
+      "negative_space": true,
+      "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22food+shortage%22+OR+%22food+crisis%22+OR+%22food+price+inflation%22+OR+%22fertilizer+shortage%22%29&mode=timelinevolinfo&format=json&timespan=7d"
     },
     {
-      "run_id": "20261031T163901Z",
-      "collected_at": "2026-10-31T16:40:22+00:00",
+      "run_id": "20261031T205141Z",
+      "collected_at": "2026-10-31T20:52:55+00:00",
       "signal_id": "us_drought_monitor_data_watch",
       "domain": "water",
       "source_name": "U.S. Drought Monitor data download watch",
@@ -251,14 +252,14 @@
       "trend": null,
       "trend_window": null,
       "keyword_hits": 37,
-      "source_digest": "bc2b9087c14dc53c8516426c7cd813a3f1ca72960665c74d5202ce71fc3ce068",
+      "source_digest": "0de23b00767b9d9718c8203e05b33b71c7f1c9a80eed812820203d301f151d83",
       "evidence_excerpt": "Data Download | U.S. Drought Monitor --> Register for the next U.S. Drought Monitor 101 Webinar/Q&A taking place on Wednesday, October 28, 2026, from 2-3PM Eastern Time. --> U.S. Drought Monitor Curren",
       "negative_space": false,
       "error": null
     },
     {
-      "run_id": "20261031T163901Z",
-      "collected_at": "2026-10-31T16:40:23+00:00",
+      "run_id": "20261031T205141Z",
+      "collected_at": "2026-10-31T20:52:56+00:00",
       "signal_id": "nasa_grace_groundwater_watch",
       "domain": "water",
       "source_name": "NASA GRACE groundwater watch",
@@ -275,14 +276,14 @@
       "trend": null,
       "trend_window": null,
       "keyword_hits": 40,
-      "source_digest": "d6a58125cf7c4e1ce914a740ecec64479e13f6d7af9a118d1afcf785b23f4a38",
+      "source_digest": "e9b723c7dda702bae43ad43db17ab4ede46f92df72446e4951daf183bde1cc7b",
       "evidence_excerpt": ": GRACE and GRACE-FO are used by California's Department of Water Resources for Groundwater Management Information GRACE and GRACE-FO observations are now addressing the crucial need for sustainable groundwater management practices to ensure water resiliency a",
       "negative_space": false,
       "error": null
     },
     {
-      "run_id": "20261031T163901Z",
-      "collected_at": "2026-10-31T16:40:35+00:00",
+      "run_id": "20261031T205141Z",
+      "collected_at": "2026-10-31T20:53:06+00:00",
       "signal_id": "gdelt_water_shortage_watch",
       "domain": "water",
       "source_name": "GDELT water shortage / rationing volume",
@@ -305,8 +306,8 @@
       "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22water+shortage%22+OR+%22water+rationing%22+OR+%22aquifer+depletion%22+OR+%22reservoir+levels%22%29&mode=timelinevolinfo&format=json&timespan=7d"
     },
     {
-      "run_id": "20261031T163901Z",
-      "collected_at": "2026-10-31T16:40:37+00:00",
+      "run_id": "20261031T205141Z",
+      "collected_at": "2026-10-31T20:53:09+00:00",
       "signal_id": "usgs_mineral_commodity_summaries_watch",
       "domain": "critical_minerals",
       "source_name": "USGS mineral commodity summaries watch",
@@ -329,8 +330,8 @@
       "error": null
     },
     {
-      "run_id": "20261031T163901Z",
-      "collected_at": "2026-10-31T16:40:54+00:00",
+      "run_id": "20261031T205141Z",
+      "collected_at": "2026-10-31T20:53:19+00:00",
       "signal_id": "gdelt_copper_lithium_shortage_watch",
       "domain": "critical_minerals",
       "source_name": "GDELT copper / lithium shortage volume",
@@ -353,8 +354,8 @@
       "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22copper+shortage%22+OR+%22lithium+deficit%22+OR+%22critical+minerals+shortage%22+OR+%22battery+minerals+shortage%22%29&mode=timelinevolinfo&format=json&timespan=7d"
     },
     {
-      "run_id": "20261031T163901Z",
-      "collected_at": "2026-10-31T16:40:55+00:00",
+      "run_id": "20261031T205141Z",
+      "collected_at": "2026-10-31T20:53:22+00:00",
       "signal_id": "pew_public_trust_watch",
       "domain": "institutional_trust",
       "source_name": "Pew public trust in government watch",
@@ -377,8 +378,8 @@
       "error": null
     },
     {
-      "run_id": "20261031T163901Z",
-      "collected_at": "2026-10-31T16:41:07+00:00",
+      "run_id": "20261031T205141Z",
+      "collected_at": "2026-10-31T20:53:32+00:00",
       "signal_id": "gdelt_polarization_legitimacy_watch",
       "domain": "institutional_trust",
       "source_name": "GDELT polarization / legitimacy stress volume",
@@ -401,8 +402,8 @@
       "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22political+polarization%22+OR+%22institutional+trust%22+OR+%22government+legitimacy%22+OR+%22elected+officials%22%29&mode=timelinevolinfo&format=json&timespan=7d"
     },
     {
-      "run_id": "20261031T163901Z",
-      "collected_at": "2026-10-31T16:41:18+00:00",
+      "run_id": "20261031T205141Z",
+      "collected_at": "2026-10-31T20:53:41+00:00",
       "signal_id": "gdelt_supply_chain_disruption_watch",
       "domain": "supply_chain",
       "source_name": "GDELT supply chain disruption volume",
@@ -425,8 +426,8 @@
       "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22supply+chain+disruption%22+OR+%22port+congestion%22+OR+%22shipping+disruption%22+OR+%22trade+bottleneck%22%29&mode=timelinevolinfo&format=json&timespan=7d"
     },
     {
-      "run_id": "20261031T163901Z",
-      "collected_at": "2026-10-31T16:41:29+00:00",
+      "run_id": "20261031T205141Z",
+      "collected_at": "2026-10-31T20:53:50+00:00",
       "signal_id": "gdelt_civil_unrest_watch",
       "domain": "civil_unrest",
       "source_name": "GDELT protest / riot / unrest volume",
