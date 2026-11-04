@@ -1,6 +1,6 @@
 {
-  "run_id": "20261104T133655Z",
-  "collected_at": "2026-11-04T13:37:58+00:00",
+  "run_id": "20261104T230341Z",
+  "collected_at": "2026-11-04T23:04:44+00:00",
   "signal_id": "world_bank_commodities_food_watch",
   "domain": "food",
   "source_name": "World Bank commodity food market watch",
@@ -17,7 +17,7 @@
   "trend": null,
   "trend_window": null,
   "keyword_hits": 38,
-  "source_digest": "a5490055d1b32c6a2c281d4b6df380205a0b6899b0f6168d12bad1f9322cdc1a",
+  "source_digest": "d5a1f6deb46adcbfccd3b6935e38a6d963e3b5e241ddb3aadd90039b59a0b885",
   "evidence_excerpt": "de oil (+7%) prices. The agricultural index fell 1.3%, led by a 1.8% decline in food, while beverages and raw materials fell 0.7% and 0.2%, respectively. Fertilizers prices gained nearly 1%. Metals were fell 3.0%, while precious metals declined 6.2%. Next upda",
   "negative_space": false,
   "error": null
