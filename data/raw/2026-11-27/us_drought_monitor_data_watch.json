@@ -1,6 +1,6 @@
 {
-  "run_id": "20261127T012226Z",
-  "collected_at": "2026-11-27T01:23:41+00:00",
+  "run_id": "20261127T155627Z",
+  "collected_at": "2026-11-27T15:57:42+00:00",
   "signal_id": "us_drought_monitor_data_watch",
   "domain": "water",
   "source_name": "U.S. Drought Monitor data download watch",
@@ -17,7 +17,7 @@
   "trend": null,
   "trend_window": null,
   "keyword_hits": 36,
-  "source_digest": "271f0410ffef9a9a14d2066bf1980c2dcb83e1d49fc50dee171b38e67dea1e25",
+  "source_digest": "a5a96a8639d4f6ce30155f96d533012630fa8e5fa07afad3d8fee375065057e6",
   "evidence_excerpt": "Data Download | U.S. Drought Monitor --> Due to technical difficulties, some maps in PNG format did not render correctly. These maps are being reprocessed and will be updated later today. We apologize ",
   "negative_space": false,
   "error": null
